@@ -48,10 +48,10 @@ def mad_lib():
     adjective4 = get_user_input("Enter an adjective: ")
 
     story = (f"Last summer, my {adj1} {noun1} and I decided to go on a trip to {noun2}."
-             f"We packed a {adj2} {noun2} and brought lots of {plural_noun} for the journey."
-             f"On the way, we met a {adjective3} {person} who offered us a ride on their {vehicle}."
-             f"It was going fine until the vehicle started to {verb1} uncontrollably! Finally, we arrived at {place2}," 
-             f"where everyone was busy {verb2} and eating {food}. It was the most {adjective4} trip of my life!"
+             f"\nWe packed a {adj2} {noun2} and brought lots of {plural_noun} for the journey."
+             f"\nOn the way, we met a {adjective3} {person} who offered us a ride on their {vehicle}."
+             f"\nIt was going fine until the vehicle started to {verb1} uncontrollably! Finally, we arrived at {place2}," 
+             f"\nwhere everyone was busy {verb2} and eating {food}. It was the most {adjective4} trip of my life!"
             )
     return story
 
